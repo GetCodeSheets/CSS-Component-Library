@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Component Library</title>
+    <style>
+        /* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+.btn-primary {
+  background-color: #28a745;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>CSS Component Library</h1>
+    </header>
+
+    <main>
+        <h2>Buttons</h2>
+        <button class="btn">Primary Button</button>
+        <button class="btn btn-secondary">Secondary Button</button>
+
+        <h2>Forms</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <button class="btn btn-primary">Submit</button>
+        </form>
+
+        <!-- Add more components as needed -->
+    </main>
+
+    <footer>
+        <p>&copy; 2022 CSS Component Library. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
